@@ -6,10 +6,10 @@ function SortingFilter({ click }) {
 
   return (
     <div>
-      <div className="bg-black text-white flex justify-end items-center px-4">
+      <div className="bg-darkgary text-black flex justify-end items-center px-4">
         <select
           onChange={(e) => click(e.target.value)}
-          className="bg-black text-white my-2 px-3 py-3 border-2 rounded-2xl border-black"
+          className="bg-darkgary text-white my-2 px-3 py-3 border-2 rounded-2xl border-black"
         >
           <option value="PriceLowToHight">Price low to High</option>
           <option value="PriceHightToLow">Price High to Low</option>
