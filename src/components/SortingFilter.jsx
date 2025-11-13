@@ -9,7 +9,7 @@ function SortingFilter({ click }) {
       <div className="bg-darkgary text-black flex justify-end items-center px-4">
         <select
           onChange={(e) => click(e.target.value)}
-          className="bg-darkgary text-white my-2 px-3 py-3 border-2 rounded-2xl border-black"
+          className="bg-darkgary text-black  my-2 px-3 py-3 border-2 rounded-2xl border-black"
         >
           <option value="PriceLowToHight">Price low to High</option>
           <option value="PriceHightToLow">Price High to Low</option>
