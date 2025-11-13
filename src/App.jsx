@@ -94,7 +94,12 @@ function App() {
 
         <div className="col-span-10">
           <SortingFilter click={sortProducts} />
-          <hr className="my-4" />
+           <div className="text-end">
+            <input
+              type="search"
+              placeholder="Search"className="w-[25%] bg-black-800 p-2 rounded-xl"/>
+          </div>
+          <hr className="my-2" />
           <Products products={sortedProducts} />
         </div>
       </div>
