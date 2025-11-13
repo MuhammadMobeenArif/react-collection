@@ -5,11 +5,11 @@ function Pricefilter({ init, price, setfun }) {
 
   return (
     <div>
-      <div className="shadow-2xl p-8 rounded border-2 mt-2 border-white flex justify-center items-center gap-2">
+      <div className="shadow-2xl p-8 rounded border-2 mt-2 border-darkgary flex justify-center items-center gap-2">
         <p>{init.min}</p>
         <input
           type="range"
-          className="w-40 h-10 text-lg border border-gray-400 rounded"
+          className="w-40 h-10 text-lg border border-darkgray-400 rounded"
           value={init.max}
           min={price.min}
           max={price.max}
