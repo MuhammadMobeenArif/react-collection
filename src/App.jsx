@@ -10,9 +10,9 @@ import Products from "./components/Products";
 import Ratingfilter from "./components/Ratingfilter";
 import Pricefilter from "./components/Pricefilter";
 import SortingFilter from "./components/SortingFilter";
-import Pagination from "../components/Pagination";
-import Chipfilter from "../components/Chipfilter";
-
+import Pagination from "./components/Pagination";
+import Chipfilter from "./components/Chipfilter";
+import Header from "./components/Header";
 function App() {
   // Rating Filter Logic
   const [selectedRatings, setSelectedRatings] = useState([]);
